@@ -10,4 +10,6 @@ Implements the following libraries
 	<dd>Crop Selected Image to Square Images</dd>
 	<dt><a href="https://github.com/zetbaitsu/Compressor" target="_blank">Compressor</a></dt>
 	<dd>Compress Selected Image for Efficient Data Usage on Upload(Check library for compression quality)</dd>
-</dl>
+</dl><br>
+Demo
+<img src="demo.gif">
