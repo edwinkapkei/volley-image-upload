@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageUpload</string>
+    <string name="camera_placeholder">camera placeholder</string>
+    <string name="selected_image">selected_image</string>
+</resources>

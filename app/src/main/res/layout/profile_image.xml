@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="4dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/profile_avatar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/selected_image"
+        android:src="@drawable/lissa" />
+
+    <ImageView
+        android:id="@+id/camera_action"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/camera_placeholder"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_photo_camera" />
+</RelativeLayout>
