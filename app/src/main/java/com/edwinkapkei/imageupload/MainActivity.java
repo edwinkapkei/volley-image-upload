@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Check if avatar previously uploaded in preferences and load url
         if (!"hello".equalsIgnoreCase(mSessionManager.getUrl())) {
+            //Picasso library to display images
             Picasso.get().load(mSessionManager.getUrl()).placeholder(R.drawable.lissa).into(mAvatar);
         }
 
@@ -77,6 +78,9 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Show image chooser options
+     * Uses https://github.com/ArthurHub/Android-Image-Cropper library
+     * to generate square images.
+     * Replace with your own if you don't need the image cropper library
      */
     private void selectImage() {
         CropImage.startPickImageActivity(this);
@@ -108,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 Uri uri = result.getUri();
                 try {
+                    //Uses https://github.com/zetbaitsu/Compressor library to compress selected image
                     File file = new Compressor(this).compressToFile(new File(uri.getPath()));
                     Picasso.get().load(file).into(mAvatar);
                     Toast.makeText(this, "Compressed", Toast.LENGTH_SHORT).show();
