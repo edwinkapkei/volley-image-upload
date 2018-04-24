@@ -8,6 +8,6 @@ Implements the following libraries
 	<dd>Load Images From URL or File to ImageView</dd>
 	<dt><a href="https://github.com/ArthurHub/Android-Image-Cropper">Android Image Cropper</a></dt>
 	<dd>Crop Selected Image to Square Images</dd>
-	<dt><a href="https://github.com/zetbaitsu/Compressor">Compressor</a></dt>
+	<dt><a href="https://github.com/zetbaitsu/Compressor" target="_blank">Compressor</a></dt>
 	<dd>Compress Selected Image for Efficient Data Usage on Upload(Check library for compression quality)</dd>
 </dl>
