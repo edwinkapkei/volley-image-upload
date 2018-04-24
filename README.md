@@ -11,7 +11,7 @@ Implements the following libraries
 	<dt><a href="https://github.com/zetbaitsu/Compressor" target="_blank">Compressor</a></dt>
 	<dd>Compress Selected Image for Efficient Data Usage on Upload(Check library for compression quality)</dd>
 </dl><br>
-Demo<br>
+<h4>Demo</h4><br>
 <img src="demo.gif"><br>
 <p>ImageView placeholder image source</p>
 	<a href="https://www.behance.net/yuschav">Yuschav Arly</a><br>
